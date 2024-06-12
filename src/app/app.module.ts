@@ -10,6 +10,10 @@ import { ServicesComponent } from './services/services.component';
 import { FabricationComponent } from './fabrication/fabrication.component';
 import { AlimentationComponent } from './alimentation/alimentation.component';
 import { FooterComponent } from './footer/footer.component';
+import { MentionsComponent } from './mentions/mentions.component';
+import { DonneesComponent } from './donnees/donnees.component';
+import { AccessibiliteComponent } from './accessibilite/accessibilite.component';
+import { CookiesComponent } from './cookies/cookies.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { FooterComponent } from './footer/footer.component';
     ServicesComponent,
     FabricationComponent,
     AlimentationComponent,
-    FooterComponent
+    FooterComponent,
+    MentionsComponent,
+    DonneesComponent,
+    AccessibiliteComponent,
+    CookiesComponent
   ],
   imports: [
     BrowserModule,
