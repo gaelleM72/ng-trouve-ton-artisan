@@ -11,6 +11,17 @@
                         <i class="{{menu_icon}}"></i>
                 </div>
                 <div class="desktop_menu" [class.mobile_menu]="menuValue">
+                    <div class="search">
+                        
+                            <div class="col-md-6">
+                                <div class="form">
+                                    <i class="fa fa-search"></i>
+                                    <input type="text" class="form-control form-input" placeholder="Rechercher ...">
+                                    
+                                </div>
+                            </div>            
+                        
+                    </div>
                     <ul>
                         <li routerLink="/" (click)="closeMenu()">Accueil</li>
                         <li routerLink="/batiment" (click)="closeMenu()">Bâtiment</li>
