@@ -1,13 +1,37 @@
 header {
     background-color: #f1f8fc;
+  
 }
 
 .logo {
-    width: 200px;
+    width: 300px;
+    padding-bottom: 20px;
 }
 
 .logo:hover {
     cursor: pointer;
+}
+
+.search {
+    display: flex;
+    justify-content: end;
+    padding-top: 10px;
+}
+
+.form {
+    position: relative;
+}
+
+.form-input {
+    font-weight: lighter;
+}
+
+.form .fa-search {
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    color: #0074c7;
 }
 
 .desktop_menu {
