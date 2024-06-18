@@ -1,6 +1,6 @@
-import { Artisant } from './artisants';
+import { Artisan } from './artisans';
 
-export const ARTISANTS: Artisant[] = [
+export const ARTISANS: Artisan[] = [
 	{
 		"id": "1",
 		"name": "Vallis Bellemare",
@@ -57,7 +57,7 @@ export const ARTISANTS: Artisant[] = [
 		"location": "Aix-les-bains",
 		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
 		"email":"claude.quinn@gmail.com",
-		"website":"",
+		"website":"Pas de site internet",
 		"category":"Fabrication",
 		"top": false
 	},
@@ -69,7 +69,7 @@ export const ARTISANTS: Artisant[] = [
 		"location": "Valence",
 		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
 		"email":"v-laredoute@gmail.com",
-		"website":"",
+		"website":"Pas de site internet",
 		"category":"Services",
 		"top": false
 	},
@@ -105,7 +105,7 @@ export const ARTISANTS: Artisant[] = [
 		"location": "Evian",
 		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
 		"email":"o-salmons@live.com",
-		"website":"",
+		"website":"Pas de site internet",
 		"category":"Bâtiment",
 		"top": true
 	},
@@ -117,7 +117,7 @@ export const ARTISANTS: Artisant[] = [
 		"location": "Montélimar",
 		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
 		"email":"aupainchaud@hotmail.com",
-		"website":"",
+		"website":"Pas de site internet",
 		"category":"Alimentation",
 		"top": true
 	},
@@ -129,7 +129,7 @@ export const ARTISANTS: Artisant[] = [
 		"location": "Lyon",
 		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
 		"email":"boucherie.dumond@gmail.com",
-		"website":"",
+		"website":"Pas de site internet",
 		"category":"Alimentation",
 		"top": false
 	},
@@ -177,7 +177,7 @@ export const ARTISANTS: Artisant[] = [
 		"location": "Saint-Priest",
 		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
 		"email":"r.charbonneau@gmail.com",
-		"website":"",
+		"website":"Pas de site internet",
 		"category":"Services",
 		"top": false
 	},
@@ -189,7 +189,7 @@ export const ARTISANTS: Artisant[] = [
 		"location": "Le Puy-en-Velay",
 		"about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend ante sem, id volutpat massa fermentum nec. Praesent volutpat scelerisque mauris, quis sollicitudin tellus sollicitudin. ",
 		"email":"e-carigan@hotmail.com",
-		"website":"",
+		"website":"Pas de site internet",
 		"category":"Fabrication",
 		"top": false
 	},

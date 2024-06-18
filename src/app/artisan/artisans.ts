@@ -1,4 +1,4 @@
-export class Artisant {
+export class Artisan {
     id: string;
 	name: string;
 	specialty: string;
