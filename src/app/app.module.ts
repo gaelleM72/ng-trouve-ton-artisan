@@ -14,6 +14,7 @@ import { MentionsComponent } from './mentions/mentions.component';
 import { DonneesComponent } from './donnees/donnees.component';
 import { AccessibiliteComponent } from './accessibilite/accessibilite.component';
 import { CookiesComponent } from './cookies/cookies.component';
+import { ArtisantComponent } from './artisant/artisant.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { CookiesComponent } from './cookies/cookies.component';
     MentionsComponent,
     DonneesComponent,
     AccessibiliteComponent,
-    CookiesComponent
+    CookiesComponent,
+    ArtisantComponent
   ],
   imports: [
     BrowserModule,

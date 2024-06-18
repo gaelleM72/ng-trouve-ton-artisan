@@ -1,0 +1,22 @@
+<section class="card-group">
+    <h2>Liste des artisants</h2>
+    <div *ngFor="let artisant of artisantList" class="card">
+        <div class="card-body">
+            <h2 class="card-title">{{ artisant.name }}</h2>
+            <div class="card-text">
+                <h3>Spécialité :</h3>
+                    <p>{{ artisant.specialty }}</p>
+                <h3>Note :</h3>
+                    <p>{{ artisant.note }}/5</p>
+                <h3>Localisation :</h3>
+                    <p>{{ artisant.location }}</p>
+                <h3>A propos :</h3>
+                    <p>{{ artisant.about }}</p>
+                <h3>E-mail :</h3>
+                    <p>{{ artisant.email }}</p>
+                <h3>Site internet :</h3>
+                    <p>{{ artisant.website }}</p>  
+            </div>
+        </div>
+    </div>
+</section>

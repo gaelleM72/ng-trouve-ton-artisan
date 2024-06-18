@@ -1,4 +1,6 @@
-[
+import { Artisant } from './artisants';
+
+export const ARTISANTS: Artisant[] = [
 	{
 		"id": "1",
 		"name": "Vallis Bellemare",
