@@ -13,7 +13,7 @@ export class AlimentationComponent implements OnInit {
   artisanSelected: Artisan|undefined;
 
   ngOnInit() {
-    this.artisanList = ARTISANS.filter((Artisan: { specialty:string }) => Artisan.specialty === "Alimentation");
+    this.artisanList = ARTISANS.filter((Artisan: { category:string }) => Artisan.category === "Alimentation");
   }
 
 }
