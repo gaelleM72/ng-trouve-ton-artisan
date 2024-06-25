@@ -15,6 +15,7 @@ import { DonneesComponent } from './donnees/donnees.component';
 import { AccessibiliteComponent } from './accessibilite/accessibilite.component';
 import { CookiesComponent } from './cookies/cookies.component';
 import { ArtisanComponent } from './artisan/artisan.component';
+import { FicheArtisanComponent } from './fiche-artisan/fiche-artisan.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ArtisanComponent } from './artisan/artisan.component';
     DonneesComponent,
     AccessibiliteComponent,
     CookiesComponent,
-    ArtisanComponent
+    ArtisanComponent,
+    FicheArtisanComponent
   ],
   imports: [
     BrowserModule,
