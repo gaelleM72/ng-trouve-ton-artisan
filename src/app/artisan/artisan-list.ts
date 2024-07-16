@@ -1,8 +1,8 @@
-import { Artisan } from './artisans';
+import { Artisan } from "./artisans";
 
 export const ARTISANS: Artisan[] = [
 	{
-		"id": "1",
+		"id": 1,
 		"name": "Vallis Bellemare",
 		"specialty": "Plombier",
 		"note": "4",
@@ -14,7 +14,7 @@ export const ARTISANS: Artisan[] = [
 		"top": false
 	},
 	{
-		"id": "2",
+		"id": 2,
 		"name": "Amitee Lécuyer",
 		"specialty": "Couturier",
 		"note": "4.5",
@@ -26,7 +26,7 @@ export const ARTISANS: Artisan[] = [
 		"top": false
 	},
 	{
-		"id": "3",
+		"id": 3,
 		"name": "Leala Dennis",
 		"specialty": "Coiffeur",
 		"note": "3.8",
@@ -38,7 +38,7 @@ export const ARTISANS: Artisan[] = [
 		"top": false
 	},
 	{
-		"id": "4",
+		"id": 4,
 		"name": "Chocolaterie Labbé",
 		"specialty": "Chocolatier",
 		"note": "4.9",
@@ -50,7 +50,7 @@ export const ARTISANS: Artisan[] = [
 		"top": true
 	},
 	{
-		"id": "5",
+		"id": 5,
 		"name": "Claude Quinn",
 		"specialty": "Bijoutier",
 		"note": "4.2",
@@ -62,7 +62,7 @@ export const ARTISANS: Artisan[] = [
 		"top": false
 	},
 	{
-		"id": "6",
+		"id": 6,
 		"name": "Valérie Laderoute",
 		"specialty": "Toiletteur",
 		"note": "4.5",
@@ -74,7 +74,7 @@ export const ARTISANS: Artisan[] = [
 		"top": false
 	},
 	{
-		"id": "7",
+		"id": 7,
 		"name": "Boutot & fils",
 		"specialty": "Menuisier",
 		"note": "4.7",
@@ -86,7 +86,7 @@ export const ARTISANS: Artisan[] = [
 		"top": false
 	},
 	{
-		"id": "8",
+		"id": 8,
 		"name": "CM Graphisme",
 		"specialty": "Webdesign",
 		"note": "4.4",
@@ -98,7 +98,7 @@ export const ARTISANS: Artisan[] = [
 		"top": false
 	},
 	{
-		"id": "9",
+		"id": 9,
 		"name": "Orville Salmons",
 		"specialty": "Chauffagiste",
 		"note": "5",
@@ -110,7 +110,7 @@ export const ARTISANS: Artisan[] = [
 		"top": true
 	},
 	{
-		"id": "10",
+		"id": 10,
 		"name": "Au pain chaud",
 		"specialty": "Boulanger",
 		"note": "4.8",
@@ -122,7 +122,7 @@ export const ARTISANS: Artisan[] = [
 		"top": true
 	},
 	{
-		"id": "11",
+		"id": 11,
 		"name": "Boucherie Dumont",
 		"specialty": "Boucher",
 		"note": "4.5",
@@ -134,7 +134,7 @@ export const ARTISANS: Artisan[] = [
 		"top": false
 	},
 	{
-		"id": "12",
+		"id": 12,
 		"name": "Mont Blanc Eléctricité",
 		"specialty": "Electricien",
 		"note": "4.5",
@@ -146,7 +146,7 @@ export const ARTISANS: Artisan[] = [
 		"top": false
 	},
 	{
-		"id": "13",
+		"id": 13,
 		"name": "Traiteur Truchon",
 		"specialty": "Traiteur",
 		"note": "4.1",
@@ -158,7 +158,7 @@ export const ARTISANS: Artisan[] = [
 		"top": false
 	},
 	{
-		"id": "14",
+		"id": 14,
 		"name": "Le monde des fleurs",
 		"specialty": "Fleuriste",
 		"note": "4.6",
@@ -170,7 +170,7 @@ export const ARTISANS: Artisan[] = [
 		"top": false
 	},
 	{
-		"id": "15",
+		"id": 15,
 		"name": "Royden Charbonneau",
 		"specialty": "Carrossier",
 		"note": "3.8",
@@ -182,7 +182,7 @@ export const ARTISANS: Artisan[] = [
 		"top": false
 	},
 	{
-		"id": "16",
+		"id": 16,
 		"name": "Ernest Carignan",
 		"specialty": "Ferronier",
 		"note": "5",
@@ -194,7 +194,7 @@ export const ARTISANS: Artisan[] = [
 		"top": false
 	},
 	{
-		"id": "17",
+		"id": 17,
 		"name": "C'est sup'hair",
 		"specialty": "Coiffeur",
 		"note": "4.1",
@@ -204,5 +204,5 @@ export const ARTISANS: Artisan[] = [
 		"website":"https://sup-hair.fr",
 		"category":"Services",
 		"top": false
-	}
+	},
 ]

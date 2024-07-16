@@ -1,6 +1,6 @@
-<h2>Nos artisans du bâtiment</h2>
+<h2>Nos artisans de fabrication</h2>
     <section class="card-group">     
-        <div *ngFor="let artisan of artisanList" class="card">
+        <div *ngFor="let artisan of artisanList" (click)="goToArtisan(artisan)" class="card" artisanBorderCard>
             <div class="card-body">
                 <h3 class="card-title">{{ artisan.name }}</h3>
                     <div class="card-text">

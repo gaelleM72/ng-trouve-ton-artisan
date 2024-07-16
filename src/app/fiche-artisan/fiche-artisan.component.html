@@ -1,1 +1,55 @@
-<p>fiche-artisan works!</p>
+<div class="main-container">
+    
+    <div *ngIf="artisan" class="card-container">
+
+      <div class="card">
+            <div class="card-content">
+              <h2>{{ artisan.name }}</h2>
+              <tbody>
+              
+              <table class="bordered striped">
+                  <tr>
+                    <td class="title">Nom :</td>
+                    <td>{{ artisan.name }}</td>
+                  </tr>
+                  <tr>
+                    <td class="title">Spécialité :</td>
+                    <td>{{ artisan.specialty }}</td>
+                  </tr>
+                  <tr>
+                    <td class="title">Note :</td>
+                    <td>{{ artisan.note }}/5</td>
+                  </tr>
+                  <tr>
+                  <tr>
+                    <td class="title">Localisation :</td>
+                    <td>{{ artisan.location }}</td>
+                  </tr>
+                  <tr>
+                    <td class="title">A propos :</td>
+                    <td>{{ artisan.about }}</td>
+                  </tr>
+                  <tr>
+                    <td class="title">Email :</td>
+                    <td>{{ artisan.email }}</td>
+                  </tr>
+                  <tr>
+                    <td class="title">Site internet :</td>
+                    <td>{{ artisan.website }}</td>
+                  </tr>
+                  <tr>
+                    <td class="title">Catégorie :</td>
+                    <td>{{ artisan.category }}</td>
+                  </tr>
+              </table>
+            <div class="bouton">
+                <a routerLink="/" class="btn1 bsb-btn-5xl btn-dark rounded-pill px-5 fs-6 m-0">Retour</a>
+        
+         
+                <a routerLink="/" class="btn2 bsb-btn-5xl btn-dark rounded-pill px-5 fs-6 m-0">Contact</a>
+            </div>
+            </tbody>
+    </div> 
+</div>
+<p *ngIf="!artisan" class="center">Cet artisan est introuvable.</p>
+     
