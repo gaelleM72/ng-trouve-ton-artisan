@@ -18,6 +18,10 @@ import { ArtisanComponent } from './artisan/artisan.component';
 import { FicheArtisanComponent } from './fiche-artisan/fiche-artisan.component';
 import { BorderCardDirective } from './border-card.directive';
 import { Page404Component } from './page-404/page-404.component';
+import { FormulaireComponent } from './formulaire/formulaire.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -36,11 +40,14 @@ import { Page404Component } from './page-404/page-404.component';
     ArtisanComponent,
     FicheArtisanComponent,
     BorderCardDirective,
-    Page404Component
+    Page404Component,
+    FormulaireComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [
     provideClientHydration()

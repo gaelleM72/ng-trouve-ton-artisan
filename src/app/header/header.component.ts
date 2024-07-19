@@ -3,15 +3,15 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrl: './header.component.scss'
+  styleUrl: './header.component.scss',
 })
 export class HeaderComponent {
-  menuValue:boolean = false;
-  menu_icon:string='bi bi-list';
+  menuValue: boolean = false;
+  menu_icon: string = 'bi bi-list';
 
   openMenu() {
-    this.menuValue =!this.menuValue;
-    this.menu_icon = this.menuValue ? 'bi bi-x':'bi bi-list';
+    this.menuValue = !this.menuValue;
+    this.menu_icon = this.menuValue ? 'bi bi-x' : 'bi bi-list';
   }
 
   closeMenu() {

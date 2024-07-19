@@ -13,7 +13,6 @@ import { CookiesComponent } from './cookies/cookies.component';
 import { FicheArtisanComponent } from './fiche-artisan/fiche-artisan.component';
 import { Page404Component } from './page-404/page-404.component';
 
-
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'batiment', component: BatimentComponent },
@@ -24,12 +23,12 @@ const routes: Routes = [
   { path: 'donnees', component: DonneesComponent },
   { path: 'accessibilite', component: AccessibiliteComponent },
   { path: 'cookies', component: CookiesComponent },
-  { path: 'artisan/:id', component: FicheArtisanComponent},
-  { path: '**', component: Page404Component }
+  { path: 'artisan/:id', component: FicheArtisanComponent },
+  { path: '**', component: Page404Component },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

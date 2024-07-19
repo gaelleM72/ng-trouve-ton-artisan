@@ -19,6 +19,10 @@ h2 {
     margin: 0;
 }
 
+h3 {
+    color: #00497c;
+}
+
 .title {
     color: #0074c7;
     font-weight: bold;
@@ -29,32 +33,16 @@ h2 {
     color: #384050;
 }
 
-.bouton {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    
-}
 
-.btn1 {
-    width: 150px;
+.btn {
+    margin-bottom: 50px;
+    width: 170px;
     color: #f1f8fc;
     font-weight: bold;
     background-color: #0074c7;
     border: #00497c;
 }
 
-.btn2 {
-    width: 150px;
-    color: #f1f8fc;
-    font-weight: bold;
-    background-color: #0074c7;
-    border: #00497c;
-}
-
-a {
-    text-decoration: none;
-}
 
 @media screen and (min-width:128px) and (max-width:900px) {
     .card-group {
