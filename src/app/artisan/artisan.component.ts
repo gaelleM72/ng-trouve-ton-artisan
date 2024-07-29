@@ -12,6 +12,8 @@ export class ArtisanComponent implements OnInit {
   artisanList: Artisan[] = ARTISANS;
   artisanSelected: Artisan | undefined;
   ARTISANS: any[] = [];
+  searchtext: any;
+  
 
   constructor(private router: Router) {}
 

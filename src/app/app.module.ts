@@ -21,6 +21,7 @@ import { Page404Component } from './page-404/page-404.component';
 import { FormulaireComponent } from './formulaire/formulaire.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
+import { FilterPipe } from './filter.pipe';
 
 
 @NgModule({
@@ -41,7 +42,8 @@ import { FormsModule } from '@angular/forms';
     FicheArtisanComponent,
     BorderCardDirective,
     Page404Component,
-    FormulaireComponent
+    FormulaireComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,

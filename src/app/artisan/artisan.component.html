@@ -1,7 +1,18 @@
 <section class="card-group">
   <h2>Liste des artisans</h2>
+  <!-- barre de recherche -->
+  <div class="form-outline mt-3">
+    <input
+      type="search"
+      [(ngModel)]="searchtext"
+      id="form1"
+      class="form-control"
+      placeholder="Rechercher..."
+      aria-label="rechercher"
+    />
+  </div>
   <div
-    *ngFor="let artisan of artisanList"
+    *ngFor="let artisan of artisanList | filter : searchtext"
     class="card"
     artisanBorderCard
     (click)="goToArtisan(artisan)"
