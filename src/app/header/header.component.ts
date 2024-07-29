@@ -6,16 +6,14 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.scss',
 })
 export class HeaderComponent {
-  menuValue: boolean = false;
-  menu_icon: string = 'bi bi-list';
+  constructor() {}
+
+  menuVariable: boolean = false;
+  menu_icon_variable: boolean = false;
 
   openMenu() {
-    this.menuValue = !this.menuValue;
-    this.menu_icon = this.menuValue ? 'bi bi-x' : 'bi bi-list';
+    this.menuVariable =! this.menuVariable;
+    this.menu_icon_variable =! this.menu_icon_variable;
   }
 
-  closeMenu() {
-    this.menuValue = false;
-    this.menu_icon = 'bi bi-list';
-  }
 }
