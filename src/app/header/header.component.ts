@@ -12,8 +12,7 @@ export class HeaderComponent {
   menu_icon_variable: boolean = false;
 
   openMenu() {
-    this.menuVariable =! this.menuVariable;
-    this.menu_icon_variable =! this.menu_icon_variable;
+    this.menuVariable = !this.menuVariable;
+    this.menu_icon_variable = !this.menu_icon_variable;
   }
-
 }

@@ -13,7 +13,6 @@ export class ArtisanComponent implements OnInit {
   artisanSelected: Artisan | undefined;
   ARTISANS: any[] = [];
   searchtext: any;
-  
 
   constructor(private router: Router) {}
 
@@ -28,6 +27,8 @@ export class ArtisanComponent implements OnInit {
   ngOnInit() {
     console.table(this.artisanList);
   }
+
+  // Pour la recherche d'artisan
 
   selectArtisan(artisanId: string) {
     const artisan: Artisan | undefined = this.artisanList.find(

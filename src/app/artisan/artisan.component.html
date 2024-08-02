@@ -1,6 +1,8 @@
 <section class="card-group">
   <h2>Liste des artisans</h2>
+
   <!-- barre de recherche -->
+
   <div class="form-outline mt-3">
     <input
       type="search"
@@ -11,6 +13,9 @@
       aria-label="rechercher"
     />
   </div>
+
+  <!-- Carte artisan -->
+
   <div
     *ngFor="let artisan of artisanList | filter : searchtext"
     class="card"

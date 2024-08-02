@@ -29,6 +29,8 @@ export class BatimentComponent implements OnInit {
     );
   }
 
+  // Pour rechercher des artisans
+
   selectArtisan(artisanId: string) {
     const artisan: Artisan | undefined = this.artisanList.find(
       (artisan) => artisan.id == +artisanId

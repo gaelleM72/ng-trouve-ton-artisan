@@ -1,5 +1,7 @@
 import { Directive, ElementRef, HostListener } from '@angular/core';
 
+// Pour changer la couleur de la fiche artisan seléctionnée
+
 @Directive({
   selector: '[artisanBorderCard]',
 })
