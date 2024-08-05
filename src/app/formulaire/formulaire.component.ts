@@ -22,6 +22,7 @@ export class FormulaireComponent implements OnInit {
 
   clicksub() {
     console.log(this.form.value);
+    alert('le message a bien été envoyé');
     this.form.reset();
   }
 }
